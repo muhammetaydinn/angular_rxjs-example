@@ -1,0 +1,10 @@
+<mat-card class="task-card">
+  <mat-card-content>
+    {{ task.title }}
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-icon-button (click)="remove.emit(task.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>

@@ -1,0 +1,10 @@
+.add-task {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.add-task-input {
+    flex: 1;
+}

@@ -1,0 +1,6 @@
+<div class="add-task">
+  <mat-form-field>
+    <input matInput [(ngModel)]="newTaskTitle" placeholder="New Task" (keyup.enter)="addTask()">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="addTask()">Add Task</button>
+</div>
